@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+#level-title {
+  font-family: 'Nixie One', cursive;
+  letter-spacing: 0.3rem;
+  font-size: 3rem;
+  margin:  5%;
+  color: #005874;
+}
+
+.container {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 20%;
+}
+@media (max-width: 600px){
+  #level-title {
+    font-size: 2rem;
+    margin-top: 20%;
+  }
+
+  .btn {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #a21232;
+}
+
+.green {
+  background-color: #379956;
+}
+
+.blue {
+  background-color: #005874;
+}
+
+.yellow {
+  background-color: #fecd51;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: lightgrey;
+
+}
