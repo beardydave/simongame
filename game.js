@@ -66,7 +66,15 @@ function startOver(){
   level = 0;
   gamePattern = [];
 }
+$(".reset").on("click", function(){
+  startOver();
+  nextSquence();
+  $(".reset").addClass("reset-pressed");
+  setTimeout(function(){
+    $(".reset").removeClass("reset-pressed");
+  },100);
 
+});
 
 // Fetch sound
 function playSound(name) {
